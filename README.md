@@ -1,3 +1,3 @@
 # CIS5367-ML-Model-Presentation-II-
 
-In this part of our project we have developed a machine learning model 
+In this part of our project we have developed a machine learning model that recommend recipes to customers using the ALS Collaborative filtering method. In collaborative filtering we are using past rating by customers for differnet recipes in the form of a matrix. We use matrix factorization to find two other matricies that when multiplied give us a matrix equivalent to the the one with the past ratings. In addition we will also acheive the "missing values" which are the estimated ratings for products by a customer. We can use these prediction to recommend a recipe to a given customer.
